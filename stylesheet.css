@@ -46,6 +46,11 @@ header {
   background-color: rgb(23, 42, 53);
 }
 
+.conyainer-left img {
+  height:400px;
+  width:500px;
+}
+
 .container-right {
   width:40%;
   background-color: rgb(23, 42, 53);
@@ -79,12 +84,12 @@ footer {
   height:100px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   main {
     background-color: rgb(23, 42, 53);
   }
   .container-left img {
-    width:100%;
+    width:500px;
   }
   .container{   
     flex-direction: column;
@@ -93,5 +98,20 @@ footer {
     background-color: greenyellow;
     width: 250px;
   }
-  
+  header {
+    height:40px;
+  }
+  .header-logo {
+    font-size:25px;
+    padding:5px;
+  }
+  .header-list li a{
+    float:right;
+    padding:10px;
+    font-size:15px;
+  }
+  .header-list {
+    padding-top:0px;
+  }
+
 }
