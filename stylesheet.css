@@ -42,7 +42,7 @@ header {
 }
 
 .container-left {
-  width:60%;
+  width:50%;
   background-color: rgb(23, 42, 53);
 }
 
@@ -52,7 +52,7 @@ header {
 }
 
 .container-right {
-  width:40%;
+  width:50%;
   background-color: rgb(23, 42, 53);
   display: flex;
   flex-direction: column;
@@ -82,14 +82,15 @@ header {
 footer {
   background-color: #1abc9c;
   height:100px;
+  font-size: 10px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 420px) {
   main {
     background-color: rgb(23, 42, 53);
   }
   .container-left img {
-    width:500px;
+    width: 350px;
   }
   .container{   
     flex-direction: column;
