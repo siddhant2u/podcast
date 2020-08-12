@@ -81,9 +81,14 @@ header {
 
 footer {
   background-color: #1abc9c;
-  height:100px;
+  height:60px;
   font-size: 20px;
   padding:20px;
+  text-align:center;
+}
+
+.footer-logo {
+  padding-top:20px;
 }
 
 @media screen and (max-width: 420px) {
