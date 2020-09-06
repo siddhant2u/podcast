@@ -95,6 +95,11 @@ footer {
   main {
     background-color: rgb(23, 42, 53);
   }
+  
+  header {
+    display:none;
+  }
+  
   .container-left img {
     width: 350px;
   }
